@@ -1,0 +1,12 @@
+# Go
+go/datadome
+go/bin/
+*.exe
+*.test
+
+# Reference tooling
+reference/node_modules/
+
+# Python leftovers
+__pycache__/
+*.pyc

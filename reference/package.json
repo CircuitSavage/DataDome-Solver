@@ -1,0 +1,14 @@
+{
+  "name": "datadome-tags-reference",
+  "private": true,
+  "description": "Deobfuscate captured DataDome tags.js for research",
+  "scripts": {
+    "deobfuscate": "node deobfuscator.js tags.js tags_deobfuscated.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.26.0",
+    "@babel/parser": "^7.26.0",
+    "@babel/traverse": "^7.26.0",
+    "@babel/types": "^7.26.0"
+  }
+}
