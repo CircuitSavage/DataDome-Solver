@@ -33,7 +33,7 @@ git remote remove origin 2>$null
 if ($LASTEXITCODE -ne 0) {
     Write-Host "Creating CircuitSavage/DataDome-Solver ..."
     & $GhExe repo create CircuitSavage/DataDome-Solver --public `
-        --description "Go DataDome solver: jspl fingerprint, tags.js, datadome cookie" `
+        --description "Production-ready Go library & CLI to generate DataDome fingerprints, encrypt jspl payloads, and obtain session cookies — no browser required." `
         --source $Root --remote origin --push
 } else {
     git remote add origin https://github.com/CircuitSavage/DataDome-Solver.git
